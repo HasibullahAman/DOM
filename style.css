@@ -1,3 +1,7 @@
 .new {
     visibility: hidden;
 }
+
+.size {
+    font-size: 10px;
+}
