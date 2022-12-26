@@ -2,6 +2,14 @@
   font-family: "sofia";
   src: url(./font/Sofia-Regular.ttf);
 }
+@font-face {
+  font-family: "Robic";
+  src: url(./font/RubikVinyl-Regular.ttf);
+}
+body {
+  background-color: #404B69;
+}
+
 .container .Title {
-  font-family: sofia;
+  font-family: Robic;
 }/*# sourceMappingURL=style.css.map */
