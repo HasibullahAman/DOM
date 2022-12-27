@@ -32,9 +32,9 @@ body {
             margin: 0.6rem;
             border-radius: 20%;
             font-family: Righteous;
-            font-size: large;
-            color:red;
-
+            font-size: 5rem;
+            color:green;
+            
         }
         .w {
             background-image: url("images/tom1.png");
@@ -63,5 +63,10 @@ body {
           .l {
             background-image: url("images/kick.png");
           }
+    }
+    .Footer{
+        font-family: sofia;
+        color:white;
+        margin-top:8rem;
     }
 }
