@@ -6,13 +6,53 @@
   font-family: "Robic";
   src: url(./font/RubikVinyl-Regular.ttf);
 }
+@font-face {
+  font-family: "Righteous";
+  src: url(./font/RubikVinyl-Regular.ttf);
+}
 body {
-  background-color: #404B69;
+  background-color: #283149;
 }
 
 .container .Title {
   font-family: Robic;
   font-weight: 500;
   font-size: 5rem;
-  color: white;
+  color: greenyellow;
+}
+.container .Main {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+.container .Main .drum {
+  width: 14rem;
+  height: 10rem;
+  border: 0.7rem solid #404B69;
+  margin: 0.6rem;
+  border-radius: 20%;
+  font-family: Righteous;
+  font-size: large;
+  color: red;
+}
+.container .Main .w {
+  background-image: url("images/tom1.png");
+}
+.container .Main .a {
+  background-image: url("images/tom2.png");
+}
+.container .Main .s {
+  background-image: url("images/tom3.png");
+}
+.container .Main .d {
+  background-image: url("images/tom4.png");
+}
+.container .Main .j {
+  background-image: url("images/snare.png");
+}
+.container .Main .k {
+  background-image: url("images/crash.png");
+}
+.container .Main .l {
+  background-image: url("images/kick.png");
 }/*# sourceMappingURL=style.css.map */
