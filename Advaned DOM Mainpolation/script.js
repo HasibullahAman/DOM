@@ -7,7 +7,9 @@
 var len = document.querySelectorAll(".drum").length;
 for(var i=0 ;i<len;i++){
     document.querySelectorAll(".drum")[i].addEventListener("click",function() {
-        alert("I got clicked..!");
+    //    var audio1 = new Audio("./sounds/tom-1.mp3");
+    //    audio1.play()
+        this.innerHtml("how are you...!")
     }
     );
-}
+} 
