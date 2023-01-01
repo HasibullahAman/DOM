@@ -62,5 +62,5 @@ body {
   margin-top: 8rem;
 }
 .container .pressed {
-  color: red;
+  box-shadow: 0 3px 4px 0 #DBEDF3;
 }/*# sourceMappingURL=style.css.map */
