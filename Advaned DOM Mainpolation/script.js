@@ -65,4 +65,7 @@ function makeSound(key){
 function buttonAnimation(aniKey){
 var buttonSelect = document.querySelector("." + aniKey)
 buttonSelect.classList.add("pressed")
+setTimeout(function(){
+    buttonSelect.classList.remove("pressed")
+}, 100)
 }

@@ -14,18 +14,21 @@ body {
   background-color: #283149;
 }
 
-.container .Title {
+.container-fluid {
+  width: 90%;
+}
+.container-fluid .Title {
   font-family: Robic;
   font-weight: 500;
   font-size: 5rem;
   color: greenyellow;
 }
-.container .Main {
+.container-fluid .Main {
   margin-top: 6rem;
   display: flex;
   justify-content: center;
 }
-.container .Main .drum {
+.container-fluid .Main .drum {
   width: 14rem;
   height: 10rem;
   border: 0.7rem solid #404B69;
@@ -35,33 +38,33 @@ body {
   font-size: 5rem;
   color: green;
 }
-.container .Main .w {
+.container-fluid .Main .w {
   background-image: url("images/tom1.png");
 }
-.container .Main .a {
+.container-fluid .Main .a {
   background-image: url("images/tom2.png");
 }
-.container .Main .s {
+.container-fluid .Main .s {
   background-image: url("images/tom3.png");
 }
-.container .Main .d {
+.container-fluid .Main .d {
   background-image: url("images/tom4.png");
 }
-.container .Main .j {
+.container-fluid .Main .j {
   background-image: url("images/snare.png");
 }
-.container .Main .k {
+.container-fluid .Main .k {
   background-image: url("images/crash.png");
 }
-.container .Main .l {
+.container-fluid .Main .l {
   background-image: url("images/kick.png");
 }
-.container .Footer {
+.container-fluid .Footer {
   font-family: sofia;
   color: white;
   margin-top: 8rem;
 }
-.container .pressed {
+.container-fluid .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
