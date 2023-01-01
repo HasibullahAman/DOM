@@ -14,6 +14,7 @@ for (var i = 0; i < len; i++) {
         // this.innerHtml("how are you...!") 
         var getinner = this.innerHTML;
         makeSound(getinner)
+        buttonAnimation(getinner)
 
     }
     );
@@ -21,6 +22,7 @@ for (var i = 0; i < len; i++) {
 
 document.addEventListener("keypress", function (event) {
     makeSound(event.key)
+    buttonAnimation(event.key)
 
 }
 );
@@ -58,4 +60,9 @@ function makeSound(key){
         default:console.log(getinner)
             break;
     }
+}
+
+function buttonAnimation(aniKey){
+var buttonSelect = document.querySelector("." + aniKey)
+buttonSelect.classList.add("pressed")
 }
