@@ -60,4 +60,7 @@ body {
   font-family: sofia;
   color: white;
   margin-top: 8rem;
+}
+.container .pressed {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
